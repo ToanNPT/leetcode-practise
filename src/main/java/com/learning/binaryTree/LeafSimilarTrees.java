@@ -33,6 +33,6 @@ public class LeafSimilarTrees {
         root.right = new TreeNode(20);
         root.right.right = new TreeNode(7);
         LeafSimilarTrees a = new LeafSimilarTrees();
-        a.leafSimilar(root, root);
+        System.out.println(a.leafSimilar(root, root));
     }
 }
