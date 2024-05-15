@@ -2,9 +2,6 @@ package com.learning.binaryTree;
 
 import com.learning.TreeNode;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class LeafSimilarTrees {
     public boolean leafSimilar(TreeNode root1, TreeNode root2) {
         StringBuilder sq1 = new StringBuilder();
