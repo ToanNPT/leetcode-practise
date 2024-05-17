@@ -28,6 +28,7 @@ public class LongestZigZagTree {
         }else{
             findZigZag(node.left, true, length + 1, max);
             findZigZag(node.right, false, 1, max);
+
         }
     }
 
