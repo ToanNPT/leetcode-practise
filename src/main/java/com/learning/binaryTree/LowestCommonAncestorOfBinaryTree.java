@@ -7,6 +7,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class LowestCommonAncestorOfBinaryTree {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         return findLCA(root, p, q);
+
     }
 
     public TreeNode findLCA(TreeNode node, TreeNode p, TreeNode q) {
