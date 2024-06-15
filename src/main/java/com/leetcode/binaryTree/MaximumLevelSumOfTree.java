@@ -1,10 +1,8 @@
-package com.learning.binaryTree;
+package com.leetcode.binaryTree;
 
-import com.learning.TreeNode;
+import com.models.TreeNode;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class MaximumLevelSumOfTree {

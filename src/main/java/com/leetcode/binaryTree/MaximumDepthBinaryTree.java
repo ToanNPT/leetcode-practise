@@ -1,6 +1,6 @@
-package com.learning.binaryTree;
+package com.leetcode.binaryTree;
 
-import com.learning.TreeNode;
+import com.models.TreeNode;
 
 public class MaximumDepthBinaryTree {
 

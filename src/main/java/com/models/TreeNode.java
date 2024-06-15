@@ -1,4 +1,4 @@
-package com.learning;
+package com.models;
 
 public class TreeNode {
     public int val;

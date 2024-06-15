@@ -1,8 +1,6 @@
-package com.learning.binaryTree;
+package com.leetcode.binaryTree;
 
-import com.learning.TreeNode;
-
-import java.util.concurrent.atomic.AtomicInteger;
+import com.models.TreeNode;
 
 public class LowestCommonAncestorOfBinaryTree {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {

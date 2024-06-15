@@ -1,19 +1,24 @@
-package com.learning.binaryTree;
+package com.leetcode.binaryTree;
 
-import com.learning.TreeNode;
+import com.models.TreeNode;
+
+import java.util.Arrays;
+import java.util.stream.Collectors;
 
 public class DeleteNodeBST {
     public static void main(String[] args) {
-        TreeNode root = new TreeNode(5);
-        root.left = new TreeNode(3);
-        root.right = new TreeNode(6);
-        root.left.left = new TreeNode(2);
-        root.left.right = new TreeNode(4);
-        root.right.right = new TreeNode(7);
+        pass();
+    }
 
-        DeleteNodeBST deleteNodeBST = new DeleteNodeBST();
-        TreeNode result = deleteNodeBST.deleteNode(root, 6);
-        System.out.println(result);
+    public static class Model {
+        public Integer value;
+    }
+
+    public static void pass(){
+        var  x = Arrays.asList(1,2,3);
+        var b = x.stream().collect(Collectors.toList());
+        x.add(4);
+        x.forEach(i -> System.out.println(i));
     }
 
     public TreeNode deleteNode(TreeNode root, int key) {

@@ -1,6 +1,6 @@
-package com.learning.binaryTree;
+package com.leetcode.binaryTree;
 
-import com.learning.TreeNode;
+import com.models.TreeNode;
 
 import java.util.HashMap;
 import java.util.Map;

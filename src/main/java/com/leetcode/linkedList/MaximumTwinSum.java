@@ -1,6 +1,6 @@
-package com.learning.linkedList;
+package com.leetcode.linkedList;
 
-import com.learning.ListNode;
+import com.models.ListNode;
 
 /*
 IDEA:

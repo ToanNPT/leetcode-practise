@@ -1,6 +1,4 @@
-package com.learning;
-
-import lombok.Data;
+package com.models;
 
 
 public class ListNode {
